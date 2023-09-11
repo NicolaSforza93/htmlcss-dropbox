@@ -3,3 +3,75 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+
+.container-fluid {
+    max-width: 100%;
+}
+
+/* Barra di navigazione  */
+
+nav .row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li {
+    padding: 10px;
+}
+
+.nav-menu a {
+    color: black;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, menu {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    display: block;
+    width: 90px;
+}
+
+.nav-menu .button {
+    background-color: #0061FF;
+    color: white;
+    padding: 3px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+
+/* .debug .container-fluid {
+    border: 2px solid black;
+    min-height: 100px;
+} */
