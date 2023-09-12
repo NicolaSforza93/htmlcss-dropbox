@@ -8,6 +8,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Header */
 
 .container-fluid {
@@ -17,13 +22,13 @@ body {
 /* Barra di navigazione  */
 
 nav .row {
-    display: flex;
     justify-content: space-between;
     padding: 10px;
 }
 
 .nav-menu {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -32,12 +37,12 @@ nav .row {
 }
 
 .nav-menu a {
-    color: black;
     font-size: 12px;
 }
 
 a {
     text-decoration: none;
+    color: black;
 }
 
 ul, ol, menu {
@@ -60,10 +65,6 @@ img {
 }
 
 /* Main */
-
-.main-content .row {
-    display: flex;
-}
 
 /* Hero */
 
@@ -112,13 +113,120 @@ img {
     background-color: #0061FF;
     color: white;
     padding: 5px 10px;
-    display: inline;
+    display: inline-block;
 }
 
 .arrow-down {
     font-size: 27px;
     padding: 5px 5px 8px 0px;
 }
+
+/* Container piccolo */
+
+.container-sm {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Plan */
+.plan {
+    padding-top: 25px;
+}
+
+.plan .title, .radio{
+    padding: 16px;
+}
+
+.radio div {
+    font-size: 11px;
+    display: inline;
+    padding-right:30px;
+}
+
+/* Plan card */
+
+.plan-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 11px;
+    border: 1px solid lightgrey;
+}
+
+.plan .col-4 {
+    padding: 15px;
+}
+
+.card-header {
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid lightgray;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.card-body div {
+    padding: 15px 0px;
+}
+
+.card-body div * {
+    padding: 5px 2px;
+}
+
+.card-body h3 {
+    font-size: 17px;
+}
+
+.card-body h5 {
+    font-size: 12px;
+}
+
+.check i {
+    color: #0061FF;
+}
+
+.price, .month {
+    display: block;
+}
+
+.card-body .button {
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.underlined a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.card-body .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.paragraph {
+    max-width: 450px;
+}
+
+.col-12 .button {
+    background-color: #0061FF;
+    color: white;
+    padding: 5px 30px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
 
 
 
@@ -155,3 +263,12 @@ img {
     border: 2px solid black;
 } */
 
+/* .debug .container-sm {
+    border: 2px solid black;
+    min-height: 400px;
+}
+
+.debug .container-sm .col-4, .col-12 {
+    border: 2px solid black;
+    min-height: 100px;
+} */
