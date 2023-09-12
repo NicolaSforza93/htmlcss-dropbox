@@ -257,8 +257,15 @@ section {
     padding-bottom: 20px;
 }
 
+/* Sezione Functions */
 
+.functions p {
+    font-size: 11px;
+}
 
+.functions .title {
+    padding: 0px 0px 35px 6px;
+}
 
 
 
