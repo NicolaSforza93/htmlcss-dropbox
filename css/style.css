@@ -152,7 +152,7 @@ img {
     flex-grow: 1;
 }
 
-.plan .col-4, .col-12 {
+.plan .thin-card, .big-card {
     padding: 15px;
 }
 
@@ -225,7 +225,7 @@ img {
 }
 
 section {
-    padding: 50px 0px;
+    padding: 40px 0px;
 }
 
 /* Sezione partner */
