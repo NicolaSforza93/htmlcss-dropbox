@@ -151,9 +151,10 @@ img {
     flex-wrap: wrap;
     font-size: 11px;
     border: 1px solid lightgrey;
+    flex-grow: 1;
 }
 
-.plan .col-4 {
+.plan .col-4, .col-12 {
     padding: 15px;
 }
 
@@ -218,10 +219,14 @@ img {
 .col-12 .button {
     background-color: #0061FF;
     color: white;
-    padding: 5px 30px;
+    padding: 5px 19px;
     display: inline-block;
     width: 100%;
     text-align: center;
+}
+
+section {
+    padding: 50px 0px;
 }
 
 
