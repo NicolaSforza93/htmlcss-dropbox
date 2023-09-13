@@ -85,6 +85,10 @@ img {
     flex-basis: calc((100% / 12) * 8);
 }
 
+.col-6 {
+    flex-basis: calc((100% / 12) * 6);
+}
+
 .hero {
     background-color: #B4D0E7;
 }
@@ -299,7 +303,7 @@ section {
 }
 
 .functions .title {
-    padding: 0px 0px 35px 6px;
+    padding-bottom: 35px;
     font-size: 27px;
 }
 
@@ -310,9 +314,86 @@ section {
     gap: 10px;
 }
 
+/* Sezione Clienti */
+ .clients .title {
+    font-size: 27px;
+ }
 
+ .clients .col-6 {
+    aspect-ratio: 1;
+    position: relative;
+ }
 
+.col-6 img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
 
+.logo-designit {
+    background-color: #A2D39B;
+    border: 10px solid rgba(255, 255, 255, 0.368);
+}
+
+.logo-arizona {
+    background-color: #61082B;
+}
+
+.logo-florida {
+    background-color: #0093ce;
+}
+
+.logo-topps {
+    background-color: #ff1c1c;
+}  
+
+.logo-bicycle {
+    background-color: #d5001f;
+}
+
+.logo-hearst {
+    background-color: #b4d0e7;
+}
+
+.logo-lonely {
+    background-color: #0d2481;
+}
+
+.logo-clear {
+    background-color: #ffd830;
+}
+
+.focus {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 11px;
+    background-color: #f5f5f5;
+    padding: 25px;
+}
+
+.focus img {
+    width: 40%;
+}
+
+.focus figure::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.number-clients {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding: 0px 15px 60px 15px;
+}
 
 
 
