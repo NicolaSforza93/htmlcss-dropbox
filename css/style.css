@@ -134,6 +134,10 @@ img {
     padding-top: 25px;
 }
 
+.plan .title {
+    font-size: 27px;
+}
+
 .plan .title, .radio{
     padding: 16px;
 }
@@ -141,7 +145,24 @@ img {
 .radio div {
     font-size: 11px;
     display: inline;
-    padding-right:30px;
+    margin-right:30px;
+}
+
+.radio input {
+    vertical-align: middle;
+}
+
+input {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    appearance: none;
+}
+
+input:checked {
+    border: 4px solid #0061FF;
 }
 
 /* Plan card */
@@ -149,7 +170,7 @@ img {
 .plan-card {
     font-size: 11px;
     border: 1px solid lightgrey;
-    flex-grow: 1;
+    height: 100%;
 }
 
 .plan .thin-card, .big-card {
@@ -180,6 +201,20 @@ img {
 
 .card-body h5 {
     font-size: 12px;
+}
+
+.cta::after {
+    content: "";
+    display: block;
+    width: 48px;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .check i {
@@ -237,7 +272,7 @@ section {
     border: 1px solid black;
 }
 
-.partner {
+.partner, .functions {
     padding: 15px;
 }
 
@@ -265,8 +300,15 @@ section {
 
 .functions .title {
     padding: 0px 0px 35px 6px;
+    font-size: 27px;
 }
 
+.functions-card {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 
 
