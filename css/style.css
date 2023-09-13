@@ -315,8 +315,13 @@ section {
 }
 
 /* Sezione Clienti */
+.clients {
+    padding-bottom: 0px;
+}
+
  .clients .title {
     font-size: 27px;
+    width: 400px;
  }
 
  .clients .col-6 {
@@ -394,6 +399,43 @@ section {
     gap: 26px;
     padding: 0px 15px 60px 15px;
 }
+
+/* Sezione Prova Gratuita */
+.trial {
+    padding: 0px;
+}
+
+.trial .col-12 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trial {
+    background-color: #b4d0e7;
+}
+
+.trial .title {
+    color: #61082b;
+    font-size: 27px;
+    width: 325px;
+}
+
+.trial .button-white {
+    color: black;
+    padding: 0px 25px;
+    line-height: 26px;
+    display: inline-block;
+    background-color: white;
+    border: none;
+}
+
+.trial-details {
+    padding: 50px 10px 50px 10px;
+}
+
+
+
 
 
 
