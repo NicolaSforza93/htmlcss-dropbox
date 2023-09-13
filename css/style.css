@@ -430,11 +430,32 @@ section {
     border: none;
 }
 
-.trial-details {
-    padding: 50px 10px 50px 10px;
+.trial .row {
+    padding: 55px 15px;
 }
 
+/* Sezione Faq */
+.faq .title {
+    font-size: 27px;
+    padding: 30px 0px;
+    border-bottom: 2px solid lightgray;
+}
+.questions {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
 
+.questions p {
+    width: 450px;
+}
+
+.faq .row {
+    padding: 15px;
+}
 
 
 
